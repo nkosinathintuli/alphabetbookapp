@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/slide01" />
+        app:srcCompat="@drawable/ic_launcher_background" />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="409dp"
@@ -35,7 +35,8 @@
             android:layout_marginStart="1dp"
             android:layout_marginEnd="2dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Prev"
+            android:onClick="buttonClicked"
+            android:text="@string/prev"
             android:textSize="25sp"
             app:layout_columnWeight="0.25"
             app:layout_rowWeight="1" />
@@ -47,7 +48,8 @@
             android:layout_marginStart="1dp"
             android:layout_marginEnd="2dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="A"
+            android:onClick="buttonClicked"
+            android:text="@string/a"
             android:textSize="25sp"
             app:layout_columnWeight="0.25"
             app:layout_rowWeight="1" />
@@ -59,7 +61,8 @@
             android:layout_marginStart="1dp"
             android:layout_marginEnd="2dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Z"
+            android:onClick="buttonClicked"
+            android:text="@string/z"
             android:textSize="25sp"
             app:layout_columnWeight="0.25"
             app:layout_rowWeight="1" />
@@ -71,7 +74,8 @@
             android:layout_marginStart="1dp"
             android:layout_marginEnd="2dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Next"
+            android:onClick="buttonClicked"
+            android:text="@string/next"
             android:textSize="25sp"
             app:layout_columnWeight="0.25"
             app:layout_rowWeight="1" />
